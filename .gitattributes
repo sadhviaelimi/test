@@ -1,0 +1,5 @@
+# Files that are going to be encrypted
+pom.xml filter=git-crypt diff=git-crypt
+# (I use gradle.properties to store credentials)
+gradle.properties filter=git-crypt diff=git-crypt
+# Making sure that .gitattributes is never encrypted
